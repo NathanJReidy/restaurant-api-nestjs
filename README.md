@@ -13,8 +13,8 @@ $ npm install
 The following environment variables must be specified in a .env file before running the app:
 
 - PORT=3000
-- AUTH0_ISSUER_URL=https://dev-cscnbaq1.us.auth0.com/
-- AUTH0_AUDIENCE=https://menu-api.demo.com
+- AUTH0_ISSUER_URL=`<from your auth0 settings>`
+- AUTH0_AUDIENCE=`<from your auth0 settings>`
 
 ```bash
 # development
@@ -27,4 +27,4 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-After running the server, a sample client can be accessed at https://dashboard-v1.whatabyte.app/home
+After running the server, a sample client can be accessed at https://dashboard-v1.whatabyte.app/home . Don't forget to update the settings with the details created for the app via your auth0 account.
